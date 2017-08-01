@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,height=device-height,user-scalable=no">
+	<script src="js/flexible.js"></script>
+	<script src="js/flexible_css.js"></script>
+	<link rel="stylesheet" href="css/base.css" type="text/css">
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+
+	<title>四级词汇练习-进行中</title>
+</head>
+<body>
+	<div class="main" id="main">
+		<a href="###" id="end">退出</a><!-- 关闭 -->
+		<a href="choose.html" id="back">返回</a><!-- 返回choose -->
+		<div class="cho">
+			<p id="plan-a">有原单词记忆熟练模式</p>
+			<p id="plan-b">无原单词背诵模式</p>
+		</div>
+		<div class="words" id="words-show">
+			<span class="jieshao">单词：</span>
+			<span id="words">words</span>
+			<span class="jieshao minjieshao">音标：</span>
+			<span id="yinbiao">soundmark</span>
+			<span class="jieshao">意思：</span>
+			<span id="mean">meaning</span>
+		</div>
+		<div class="tianci">
+			<span>填词处：</span>
+			<input id="inp" type="text" placeholder="就在这里填单词哟！！！">
+		</div>
+		<p id="examine">写完检查</p>
+		<span id="prev">上一个</span>
+		<span id="next">下一个</span>
+		<div class="result">
+			<p id="result-correct" style="display: none;">您的输入正确！可以继续下一个</p>
+			<p id="result-error" style="display: none;">输入不正确,请从新输入!</p>
+		</div>
+	</div>
+	<script src="js/main.js"></script>
+</body> 
+</html>
